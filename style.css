@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barlow:wght@300&family=Bebas+Neue&family=Calistoga&family=Inspiration&family=Montez&family=Proza+Libre&family=Rubik&family=Shadows+Into+Light&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+Body{
+	
+	background: #6FBFBE;
+}
+
+.segundocont-textogrande{
+font-family: 'Bebas Neue', cursive; 
+font-size: 50px;
+}
+
+.segundocont-textomedio{
+	font-family: 'Bebas Neue', cursive; 
+	font-size: 30px;
+}
+
+.segundocont-textopequeno{
+	font-family: 'Barlow', sans-serif; 
+	font-size: 20px;
+	align-items: center;
+	text-align: justify;
+	width: 1000px;
+}
+
+.logo{
+	font-family: 'Inspiration', cursive; 
+	color: white;
+	font-size: 50px;
+}
+
+.navbar {
+	background-color: #78A2CC;
+}
+
+.cont {
+	margin-bottom: 48px;
+	border-top: 0.4px solid white;
+}
+
+.cont-principal{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	
+}
+
+
+.cont-titulo{
+	font-family: 'Inspiration', cursive;  
+	font-weight: 400;
+	font-size: 100px;
+}
+
+.cont-subtitulo{
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+}
+
+.nav-item {
+	color: white;
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 20px;
+	margin-top: 19px;
+}
+
+.cont-img-principal{
+	height: 430px;
+
+}
+
+.btn{
+	border: none;
+	box-shadow: 4px 5px 4 px white;
+	border-radius: 20px;
+	font-family: 'Proza Libre', sans-serif;
+}
+
+.cont-sec{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	margin-top: 48px;
+	border-top: 1px solid white;
+	background-color: #BAD1CD;
+}
+
+
+.btdrop {
+	background-color:transparent;
+	color: white;
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 20px;
+	align-items: center;
+}
+
+.dropdown-item {
+	color: #78A2CC;	
+}
